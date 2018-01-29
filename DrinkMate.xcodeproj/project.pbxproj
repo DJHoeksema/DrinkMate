@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3FA2E42201F765A005087FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E41201F765A005087FC /* AppDelegate.swift */; };
+		E3FA2E44201F765A005087FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E43201F765A005087FC /* ViewController.swift */; };
+		E3FA2E47201F765A005087FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FA2E45201F765A005087FC /* Main.storyboard */; };
+		E3FA2E49201F765A005087FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FA2E48201F765A005087FC /* Assets.xcassets */; };
+		E3FA2E4C201F765A005087FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FA2E4A201F765A005087FC /* LaunchScreen.storyboard */; };
+		E3FA2E57201F765A005087FC /* DrinkMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E56201F765A005087FC /* DrinkMateTests.swift */; };
+		E3FA2E62201F765A005087FC /* DrinkMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E61201F765A005087FC /* DrinkMateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3FA2E53201F765A005087FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3FA2E36201F765A005087FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA2E3D201F765A005087FC;
+			remoteInfo = DrinkMate;
+		};
+		E3FA2E5E201F765A005087FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3FA2E36201F765A005087FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FA2E3D201F765A005087FC;
+			remoteInfo = DrinkMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3FA2E3E201F765A005087FC /* DrinkMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA2E41201F765A005087FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3FA2E43201F765A005087FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3FA2E46201F765A005087FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3FA2E48201F765A005087FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3FA2E4B201F765A005087FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3FA2E4D201F765A005087FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FA2E52201F765A005087FC /* DrinkMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA2E56201F765A005087FC /* DrinkMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMateTests.swift; sourceTree = "<group>"; };
+		E3FA2E58201F765A005087FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FA2E5D201F765A005087FC /* DrinkMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA2E61201F765A005087FC /* DrinkMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMateUITests.swift; sourceTree = "<group>"; };
+		E3FA2E63201F765A005087FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3FA2E3B201F765A005087FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA2E4F201F765A005087FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA2E5A201F765A005087FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3FA2E35201F765A005087FC = {
+			isa = PBXGroup;
+			children = (
+				E3FA2E40201F765A005087FC /* DrinkMate */,
+				E3FA2E55201F765A005087FC /* DrinkMateTests */,
+				E3FA2E60201F765A005087FC /* DrinkMateUITests */,
+				E3FA2E3F201F765A005087FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3FA2E3F201F765A005087FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA2E3E201F765A005087FC /* DrinkMate.app */,
+				E3FA2E52201F765A005087FC /* DrinkMateTests.xctest */,
+				E3FA2E5D201F765A005087FC /* DrinkMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3FA2E40201F765A005087FC /* DrinkMate */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA2E41201F765A005087FC /* AppDelegate.swift */,
+				E3FA2E43201F765A005087FC /* ViewController.swift */,
+				E3FA2E45201F765A005087FC /* Main.storyboard */,
+				E3FA2E48201F765A005087FC /* Assets.xcassets */,
+				E3FA2E4A201F765A005087FC /* LaunchScreen.storyboard */,
+				E3FA2E4D201F765A005087FC /* Info.plist */,
+			);
+			path = DrinkMate;
+			sourceTree = "<group>";
+		};
+		E3FA2E55201F765A005087FC /* DrinkMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA2E56201F765A005087FC /* DrinkMateTests.swift */,
+				E3FA2E58201F765A005087FC /* Info.plist */,
+			);
+			path = DrinkMateTests;
+			sourceTree = "<group>";
+		};
+		E3FA2E60201F765A005087FC /* DrinkMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA2E61201F765A005087FC /* DrinkMateUITests.swift */,
+				E3FA2E63201F765A005087FC /* Info.plist */,
+			);
+			path = DrinkMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3FA2E3D201F765A005087FC /* DrinkMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA2E66201F765A005087FC /* Build configuration list for PBXNativeTarget "DrinkMate" */;
+			buildPhases = (
+				E3FA2E3A201F765A005087FC /* Sources */,
+				E3FA2E3B201F765A005087FC /* Frameworks */,
+				E3FA2E3C201F765A005087FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkMate;
+			productName = DrinkMate;
+			productReference = E3FA2E3E201F765A005087FC /* DrinkMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3FA2E51201F765A005087FC /* DrinkMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA2E69201F765A005087FC /* Build configuration list for PBXNativeTarget "DrinkMateTests" */;
+			buildPhases = (
+				E3FA2E4E201F765A005087FC /* Sources */,
+				E3FA2E4F201F765A005087FC /* Frameworks */,
+				E3FA2E50201F765A005087FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FA2E54201F765A005087FC /* PBXTargetDependency */,
+			);
+			name = DrinkMateTests;
+			productName = DrinkMateTests;
+			productReference = E3FA2E52201F765A005087FC /* DrinkMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3FA2E5C201F765A005087FC /* DrinkMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FA2E6C201F765A005087FC /* Build configuration list for PBXNativeTarget "DrinkMateUITests" */;
+			buildPhases = (
+				E3FA2E59201F765A005087FC /* Sources */,
+				E3FA2E5A201F765A005087FC /* Frameworks */,
+				E3FA2E5B201F765A005087FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FA2E5F201F765A005087FC /* PBXTargetDependency */,
+			);
+			name = DrinkMateUITests;
+			productName = DrinkMateUITests;
+			productReference = E3FA2E5D201F765A005087FC /* DrinkMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3FA2E36201F765A005087FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maryville App Development";
+				TargetAttributes = {
+					E3FA2E3D201F765A005087FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E3FA2E51201F765A005087FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3FA2E3D201F765A005087FC;
+					};
+					E3FA2E5C201F765A005087FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3FA2E3D201F765A005087FC;
+					};
+				};
+			};
+			buildConfigurationList = E3FA2E39201F765A005087FC /* Build configuration list for PBXProject "DrinkMate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3FA2E35201F765A005087FC;
+			productRefGroup = E3FA2E3F201F765A005087FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3FA2E3D201F765A005087FC /* DrinkMate */,
+				E3FA2E51201F765A005087FC /* DrinkMateTests */,
+				E3FA2E5C201F765A005087FC /* DrinkMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3FA2E3C201F765A005087FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA2E4C201F765A005087FC /* LaunchScreen.storyboard in Resources */,
+				E3FA2E49201F765A005087FC /* Assets.xcassets in Resources */,
+				E3FA2E47201F765A005087FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA2E50201F765A005087FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA2E5B201F765A005087FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3FA2E3A201F765A005087FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA2E44201F765A005087FC /* ViewController.swift in Sources */,
+				E3FA2E42201F765A005087FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA2E4E201F765A005087FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA2E57201F765A005087FC /* DrinkMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FA2E59201F765A005087FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FA2E62201F765A005087FC /* DrinkMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3FA2E54201F765A005087FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA2E3D201F765A005087FC /* DrinkMate */;
+			targetProxy = E3FA2E53201F765A005087FC /* PBXContainerItemProxy */;
+		};
+		E3FA2E5F201F765A005087FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FA2E3D201F765A005087FC /* DrinkMate */;
+			targetProxy = E3FA2E5E201F765A005087FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3FA2E45201F765A005087FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FA2E46201F765A005087FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3FA2E4A201F765A005087FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FA2E4B201F765A005087FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3FA2E64201F765A005087FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3FA2E65201F765A005087FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3FA2E67201F765A005087FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = DrinkMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.DrinkMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FA2E68201F765A005087FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = DrinkMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.DrinkMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3FA2E6A201F765A005087FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = DrinkMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.DrinkMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkMate.app/DrinkMate";
+			};
+			name = Debug;
+		};
+		E3FA2E6B201F765A005087FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = DrinkMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.DrinkMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkMate.app/DrinkMate";
+			};
+			name = Release;
+		};
+		E3FA2E6D201F765A005087FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = DrinkMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.DrinkMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkMate;
+			};
+			name = Debug;
+		};
+		E3FA2E6E201F765A005087FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCBFPHH7N7;
+				INFOPLIST_FILE = DrinkMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.maryville.swdv.fl17.DrinkMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3FA2E39201F765A005087FC /* Build configuration list for PBXProject "DrinkMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA2E64201F765A005087FC /* Debug */,
+				E3FA2E65201F765A005087FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA2E66201F765A005087FC /* Build configuration list for PBXNativeTarget "DrinkMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA2E67201F765A005087FC /* Debug */,
+				E3FA2E68201F765A005087FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA2E69201F765A005087FC /* Build configuration list for PBXNativeTarget "DrinkMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA2E6A201F765A005087FC /* Debug */,
+				E3FA2E6B201F765A005087FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FA2E6C201F765A005087FC /* Build configuration list for PBXNativeTarget "DrinkMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FA2E6D201F765A005087FC /* Debug */,
+				E3FA2E6E201F765A005087FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3FA2E36201F765A005087FC /* Project object */;
+}
