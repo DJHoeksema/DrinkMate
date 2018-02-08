@@ -18,14 +18,55 @@ class ViewController: UIViewController {
     @IBOutlet weak var sixteenOzButton: UIButton!
     @IBOutlet weak var thirtyTwoOzButton: UIButton!
     
+    @IBOutlet weak var labelOutlet: UILabel!
+    
+    var requiredFluidIntake = 20
+    var fluidToken = 0
+    
+    // Button pressed actions
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       
+        }
+    
+    func updateIntakeLabel() {
+        labelOutlet.text = String(requiredFluidIntake)
+        if String(requiredFluidIntake) <= String(0) {
+            labelOutlet.text = "You reached your goal"
+            
+        }
     }
 
     @IBAction func twoOzButttonPressed(_ sender: UIButton) {
+            requiredFluidIntake -= 2
+        updateIntakeLabel()
+    }
     
+    @IBAction func fourOZButtonPressed(_ sender: UIButton) {
+            requiredFluidIntake -= 4
+        updateIntakeLabel()
+    }
+    
+    @IBAction func eightOzButtonPressed(_ sender: UIButton) {
+            requiredFluidIntake -= 8
+        updateIntakeLabel()
+    }
+    
+    @IBAction func twelfOzButttonPressed(_ sender: UIButton) {
+            requiredFluidIntake -= 12
+        updateIntakeLabel()
+    }
+    
+    @IBAction func sixsteenOzButtonPressed(_ sender: UIButton) {
+            requiredFluidIntake -= 16
+        updateIntakeLabel()
+    }
+    
+    @IBAction func thirdyTwoOzButtonPressed(_ sender: UIButton) {
+            requiredFluidIntake -= 32
+        updateIntakeLabel()
     }
     
     

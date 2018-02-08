@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHe-NQ-h0a">
-                                <rect key="frame" x="119" y="39" width="137" height="41"/>
+                                <rect key="frame" x="119" y="39" width="137" height="29.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Drink Mate">
                                         <attributes>
@@ -72,6 +72,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="eightOzButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q8p-lf-E0a"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2CR-ag-yVv">
                                                 <rect key="frame" x="40" y="266.5" width="80" height="33.5"/>
@@ -87,6 +90,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sixsteenOzButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rxt-Vy-oML"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -112,6 +118,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="fourOZButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWi-Wi-hXv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lcq-7q-l5i">
                                                 <rect key="frame" x="40" y="133.5" width="80" height="33"/>
@@ -127,6 +136,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="twelfOzButttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZA-fG-DdK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6j-6G-eUd">
                                                 <rect key="frame" x="40" y="266.5" width="80" height="33.5"/>
@@ -142,6 +154,9 @@
                                                         </fragment>
                                                     </attributedString>
                                                 </state>
+                                                <connections>
+                                                    <action selector="thirdyTwoOzButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="02S-Az-RZI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -175,74 +190,21 @@
                                     <segue destination="xdY-mS-k99" kind="show" id="qlV-E2-utT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vi-cf-DDp">
-                                <rect key="frame" x="32" y="88" width="137" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="jfJ-E3-hnw"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Oz. left">
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <font key="NSFont" size="27" name="MarkerFelt-Thin"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spQ-aG-DFk">
-                                <rect key="frame" x="189" y="88" width="170" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="zUK-xY-Ca2"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Oz. consumed">
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <font key="NSFont" size="27" name="MarkerFelt-Thin"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Z6-cC-pVY">
-                                <rect key="frame" x="253" y="147" width="42" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3J-dS-9Jx">
+                                <rect key="frame" x="119" y="116" width="137" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQf-TQ-9PZ">
-                                <rect key="frame" x="70" y="147" width="81" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="100">
-                                        <attributes>
-                                            <font key="NSFont" size="24" name="MarkerFelt-Thin"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" red="1" green="0.33652429733284117" blue="0.14380537198198595" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.65173936128363363" green="0.88175209723982795" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="iHe-NQ-h0a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="2EV-PA-m4d"/>
-                            <constraint firstItem="0Vi-cf-DDp" firstAttribute="top" secondItem="iHe-NQ-h0a" secondAttribute="bottom" constant="8" id="8wb-ta-uaD"/>
-                            <constraint firstItem="spQ-aG-DFk" firstAttribute="top" secondItem="iHe-NQ-h0a" secondAttribute="bottom" constant="8" id="9Nv-S9-of4"/>
-                            <constraint firstItem="spQ-aG-DFk" firstAttribute="leading" secondItem="0Vi-cf-DDp" secondAttribute="trailing" constant="20" id="GAA-YM-OQR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="spQ-aG-DFk" secondAttribute="trailing" constant="16" id="IQr-ob-ggR"/>
-                            <constraint firstItem="0Vi-cf-DDp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="KF7-rW-raQ"/>
-                            <constraint firstItem="spQ-aG-DFk" firstAttribute="top" secondItem="iHe-NQ-h0a" secondAttribute="bottom" constant="8" id="LmE-Ci-4Am"/>
                             <constraint firstItem="Laq-4o-0Ed" firstAttribute="leading" secondItem="iHe-NQ-h0a" secondAttribute="trailing" constant="58" id="OfS-by-fjS"/>
                             <constraint firstItem="iHe-NQ-h0a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="Qa0-aD-F9Y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Laq-4o-0Ed" secondAttribute="trailing" constant="16" id="axm-u4-dgM"/>
-                            <constraint firstItem="JfL-ul-XCw" firstAttribute="top" secondItem="0Vi-cf-DDp" secondAttribute="bottom" constant="154" id="bDv-7j-KrA"/>
                             <constraint firstItem="Laq-4o-0Ed" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cSj-La-GZ4"/>
-                            <constraint firstItem="spQ-aG-DFk" firstAttribute="top" secondItem="iHe-NQ-h0a" secondAttribute="bottom" constant="8" id="duZ-Ql-gdb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JfL-ul-XCw" secondAttribute="bottom" constant="84" id="lfV-pK-EkE"/>
                             <constraint firstItem="JfL-ul-XCw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32.5" id="uFG-i6-oeZ"/>
                         </constraints>
@@ -251,6 +213,7 @@
                     <connections>
                         <outlet property="eightOzButton" destination="jK1-Pd-OhP" id="Zb3-Ds-QdX"/>
                         <outlet property="fourOzButton" destination="Z4A-9x-cWM" id="8aV-7W-RrJ"/>
+                        <outlet property="labelOutlet" destination="t3J-dS-9Jx" id="0rg-wQ-wNM"/>
                         <outlet property="sixteenOzButton" destination="2CR-ag-yVv" id="uLn-vC-Gbx"/>
                         <outlet property="thirtyTwoOzButton" destination="T6j-6G-eUd" id="G7b-mN-o6o"/>
                         <outlet property="twelfOZButton" destination="Lcq-7q-l5i" id="aVp-vR-h9d"/>
