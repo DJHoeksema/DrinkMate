@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var labelOutlet: UILabel!
     
-    var requiredFluidIntake = 20
+    var userName: String = "" 
+    var requiredFluidIntake = 120
     var fluidToken = 0
     
     // Button pressed actions
@@ -28,7 +29,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
+       updateIntakeLabel()
         }
     
     func updateIntakeLabel() {

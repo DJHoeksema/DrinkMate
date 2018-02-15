@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E35C025220324BFD00CD15A0 /* userProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35C025120324BFD00CD15A0 /* userProfile.swift */; };
+		E35C02542033DA0F00CD15A0 /* ViewControllertest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35C02532033DA0F00CD15A0 /* ViewControllertest.swift */; };
 		E3FA2E42201F765A005087FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E41201F765A005087FC /* AppDelegate.swift */; };
 		E3FA2E44201F765A005087FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E43201F765A005087FC /* ViewController.swift */; };
 		E3FA2E47201F765A005087FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FA2E45201F765A005087FC /* Main.storyboard */; };
 		E3FA2E49201F765A005087FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FA2E48201F765A005087FC /* Assets.xcassets */; };
 		E3FA2E4C201F765A005087FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FA2E4A201F765A005087FC /* LaunchScreen.storyboard */; };
-		E3FA2E57201F765A005087FC /* DrinkMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E56201F765A005087FC /* DrinkMateTests.swift */; };
 		E3FA2E62201F765A005087FC /* DrinkMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA2E61201F765A005087FC /* DrinkMateUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E35C025120324BFD00CD15A0 /* userProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfile.swift; sourceTree = "<group>"; };
+		E35C02532033DA0F00CD15A0 /* ViewControllertest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllertest.swift; sourceTree = "<group>"; };
 		E3FA2E3E201F765A005087FC /* DrinkMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FA2E41201F765A005087FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FA2E43201F765A005087FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +45,6 @@
 		E3FA2E4B201F765A005087FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3FA2E4D201F765A005087FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3FA2E52201F765A005087FC /* DrinkMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3FA2E56201F765A005087FC /* DrinkMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMateTests.swift; sourceTree = "<group>"; };
 		E3FA2E58201F765A005087FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3FA2E5D201F765A005087FC /* DrinkMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FA2E61201F765A005087FC /* DrinkMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMateUITests.swift; sourceTree = "<group>"; };
@@ -98,8 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				E3FA2E41201F765A005087FC /* AppDelegate.swift */,
+				E35C025120324BFD00CD15A0 /* userProfile.swift */,
 				E3FA2E43201F765A005087FC /* ViewController.swift */,
 				E3FA2E45201F765A005087FC /* Main.storyboard */,
+				E35C02532033DA0F00CD15A0 /* ViewControllertest.swift */,
 				E3FA2E48201F765A005087FC /* Assets.xcassets */,
 				E3FA2E4A201F765A005087FC /* LaunchScreen.storyboard */,
 				E3FA2E4D201F765A005087FC /* Info.plist */,
@@ -110,7 +114,6 @@
 		E3FA2E55201F765A005087FC /* DrinkMateTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3FA2E56201F765A005087FC /* DrinkMateTests.swift */,
 				E3FA2E58201F765A005087FC /* Info.plist */,
 			);
 			path = DrinkMateTests;
@@ -259,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35C025220324BFD00CD15A0 /* userProfile.swift in Sources */,
 				E3FA2E44201F765A005087FC /* ViewController.swift in Sources */,
+				E35C02542033DA0F00CD15A0 /* ViewControllertest.swift in Sources */,
 				E3FA2E42201F765A005087FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3FA2E57201F765A005087FC /* DrinkMateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
